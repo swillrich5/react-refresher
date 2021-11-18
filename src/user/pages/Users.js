@@ -6,7 +6,7 @@ const Users = () => {
     const USERS = [ 
         {
             id: 'u1',
-            name: "Sam Flatulence",
+            name: "Darnell Fartsalot",
             image: "https://randomuser.me/api/portraits/men/42.jpg",
             places: 5
         },
@@ -27,8 +27,19 @@ const Users = () => {
             name: "Victoria von Hemorrhoids",
             image: "https://randomuser.me/api/portraits/women/58.jpg",
             places: 437
+        },
+        {
+            id: 'fdfdjkl;fljk;jfkldaljk;',
+            name: "Peggy Picklenose",
+            image: "https://randomuser.me/api/portraits/women/31.jpg",
+            places: 799
+        },
+        {
+            id: 'sfdafsdaasdf;fljk;jfkldaljk;',
+            name: "Bartholomew Monkeybutt",
+            image: "https://randomuser.me/api/portraits/men/31.jpg",
+            places: 19
         }
-        
     ];
 
     return <UsersList items={USERS} />
